@@ -91,4 +91,46 @@ nav a:hover{
 }
 .product-card:hover{
     transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+.titulo-deporte{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.titulo-deporte h3{
+    margin: 0;
+}
+.product-card h4,
+.product-card p{
+    padding: 0 20px;
+}
+.product-card h4{
+    color: black;
+    margin: 15px 0 10px;
+}
+.product-card p{
+    margin-bottom: 12px;
+}
+.futbol-card .titulo-deporte{
+    background: linear-gradient(135deg, #1461d4, #b2d80b);
+}
+.baloncesto-card .titulo-deporte{
+    background: linear-gradient(135deg, #14d454, #3bc5fb);
+}
+.tenis-card .titulo-deporte{
+    background: linear-gradient(135deg, #ff7b00, #89918a);
+}
+.natacion-card .titulo-deporte{
+    background: linear-gradient(135deg, #43d6e9, #6238f9);
+}
+.atletismo-card .titulo-deporte{
+    background: linear-gradient(135deg, #abf71e, #ca50c4);
+}
+.ciclismo-card .titulo-deporte{
+    background: linear-gradient(135deg, #bd2a2a, #feee92);
+}
+.estadística{
+     background: linear-gradient(135deg, #2a97d6, #2882e9);
 }
